@@ -10,7 +10,7 @@ nav:
   - title: Zaken API
     subnav:
       - title: Main
-        path: /main
+        path: /
   - title: Specificaties 1.5.0 (Live)
     subnav:
       - title: Getting started
