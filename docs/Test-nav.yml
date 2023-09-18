@@ -1,6 +1,0 @@
-  - title: Specificaties 1.6.0 (IO)
-    subnav:
-      - title: Redoc
-        path: /redoc-1.5.0
-      - title: Swagger
-        path: /swagger-ui-1.5.0
