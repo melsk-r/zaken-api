@@ -11,7 +11,6 @@ nav:
     subnav:
       - title: Main
         path: /
-{% include Test-nav.yml %}
   - title: Specificaties 1.5.0 (Live)
     subnav:
       - title: Getting started
