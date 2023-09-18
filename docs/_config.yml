@@ -1,0 +1,69 @@
+baseurl: "/zaken-api"
+apiname: "API's Zaak-catalogus"
+url: "http://localhost:4000"
+# nav is t.b.v. generatie side-navigation menu.
+# Een 'title' zonder path of url genereert slechts een kopje.
+# 'path' vormt tezamen met de baseurl de url waarmee de 'href' wordt gevuld. 
+# Indien een 'url' voorradig dan wordt daarmee de 'href' gevuld en dient het path slechts om te bepalen welke link active is.
+# 'target: blank' zorgt er voor dat de link in een nieuw tabblad wordt geöpend.
+nav:
+  - title: Zaken API
+    subnav:
+      - title: Main
+        path: /
+  - title: Specificaties 1.5.0 (Live)
+    subnav:
+      - title: Getting started
+        path: /getting-started
+      - title: User stories
+        path: /user-stories-1.5
+      - title: Redoc
+        path: /redoc-1.5.0
+      - title: Swagger
+        path: /swagger-ui-1.5.0
+      - title: Features
+        path: /features
+  - title: Specificaties 1.4.0 (Deprecated)
+    subnav:
+      - title: Redoc
+        path: /redoc-1.4.0
+      - title: Swagger
+        path: /swagger-ui-1.4.0
+   - title: Specificaties 1.3.0 (Deprecated)
+    subnav:
+      - title: Redoc
+        path: /redoc-1.3.0
+      - title: Swagger
+        path: /swagger-ui-1.3.0
+  - title: Specificaties 1.2.0 (Deprecated)
+    subnav:
+      - title: Redoc
+        path: /redoc-1.2.0
+      - title: Swagger
+        path: /swagger-ui-1.2.0
+ - title: Specificaties 1.1.0 (Deprecated)
+    subnav:
+      - title: Redoc
+        path: /redoc-1.1.0
+      - title: Swagger
+        path: /swagger-ui-1.1.0
+  - title: Specificaties 1.0.0 (Deprecated)
+    subnav:
+      - title: Redoc
+        path: /redoc-1.0.0
+      - title: Swagger
+        path: /swagger-ui-1.0.0
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+
+remote_theme: melsk-r/new-jekyll-theme
+
+github: melsk-r/zaken-api
+
+theme: jekyll-theme-time-machine
+
+project_name: /gemma-zaken
+
+standard_family: ZGW
