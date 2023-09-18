@@ -29,7 +29,7 @@ nav:
         path: /redoc-1.4.0
       - title: Swagger
         path: /swagger-ui-1.4.0
-   - title: Specificaties 1.3.0 (Deprecated)
+  - title: Specificaties 1.3.0 (Deprecated)
     subnav:
       - title: Redoc
         path: /redoc-1.3.0
