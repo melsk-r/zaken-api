@@ -1,7 +1,5 @@
 ---
 title: "Zaken API"
-date: '22-8-2023'
-weight: 10
 layout: page-with-side-nav
 ---
 # Zaken API
